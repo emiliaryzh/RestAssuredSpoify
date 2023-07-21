@@ -17,7 +17,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 @Epic("Spotify API")
-public class PlaylistTests extends BaseTest{
+public class PlaylistTests extends BaseTest {
 
     public Playlist playlistBuilder(String name, String description, boolean public_type) {
         return Playlist.builder().
