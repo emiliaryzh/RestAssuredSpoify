@@ -9,6 +9,6 @@ public class BaseTest {
     @BeforeMethod
     public void beforeMethod(Method method) {
         System.out.println("Start test №" + method.getName());
-        System.out.println("Thead ID №" + Thread.currentThread().getId());
+        System.out.println("Thread ID №" + Thread.currentThread().getId());
     }
 }

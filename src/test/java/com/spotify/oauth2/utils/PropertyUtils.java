@@ -1,6 +1,5 @@
 package com.spotify.oauth2.utils;
 
-import javax.imageio.IIOException;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;

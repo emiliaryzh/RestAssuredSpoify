@@ -1,6 +1,5 @@
 package com.spotify.oauth2.api;
 
-import io.qameta.allure.Step;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.filter.log.LogDetail;
