@@ -27,14 +27,6 @@ public class PlaylistTests extends BaseTest {
                 build();
     }
 
-  /* public Playlist playlistBuilder(String name, String description, boolean public_type) {
-        Playlist playlist = new Playlist();
-        playlist.setName(name);
-        playlist.setDescription(description);
-        playlist.set_public(public_type);
-        return playlist;
-    } */
-// an example without the Builder pattern
 
     public void assertPlaylistEqual(Playlist responsePlaylist, Playlist requestPlaylist) {
         assertThat(responsePlaylist.getName(), equalTo(requestPlaylist.getName()));
